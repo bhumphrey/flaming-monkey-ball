@@ -1,1 +1,13 @@
-readme changed
+Bowling Game Kata
+
+5AM Solution Coding Kata 
+May 2012
+
+Scoring a bowling game. 
+Lowest score is 0.
+Highest Possible is 300.
+
+Strike current roll plus next 2 rolls.
+
+Spare is Current roll plus next roll.
+~                                       
