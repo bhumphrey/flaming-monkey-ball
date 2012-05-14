@@ -32,8 +32,7 @@ public class BowlingGameTest {
         game.roll(4);
     	game.roll(6);
     	game.roll(4);
-    	for (int i = 3
-    			; i < 20; i++) {
+    	for (int i = 3; i < 20; i++) {
     		game.roll(0);
     	}
     	int score = game.scoreGame();
