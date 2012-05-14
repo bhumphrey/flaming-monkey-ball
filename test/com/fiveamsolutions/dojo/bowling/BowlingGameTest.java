@@ -42,6 +42,6 @@ public class BowlingGameTest {
     		rolls.add(0);
     	}
     	int score = game.scoreGame(rolls);
-    	assertEquals(20, score);
+    	assertEquals(10, score);
     }
 }
