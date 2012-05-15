@@ -45,6 +45,18 @@ public class BowlingGameTest {
     	game.roll(10);
     	game.roll(7);
     	game.roll(1);
+    	for (int i = 3; i < 20; i++) {
+    		game.roll(0);
+    	}
     	assertEquals(26, game.scoreGame());
+    }
+    
+    @Test
+    public void perfectGame() {
+    	BowlingGame game = new BowlingGame();
+    	for(int i =0; i< 12; i++) {
+    		game.roll(10);
+    	}
+    	assertEquals(300, game.scoreGame());
     }
 }
